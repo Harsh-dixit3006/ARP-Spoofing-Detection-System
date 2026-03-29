@@ -1,0 +1,16 @@
+# Root-level convenience file. For the full dependency list, see:
+#   backend/requirements.txt
+#
+# Quick install:
+#   pip3 install -r backend/requirements.txt
+
+scapy
+flask
+flask-cors
+flask-socketio
+pymongo
+dnspython
+certifi
+bcrypt
+PyJWT
+python-dotenv

@@ -1,0 +1,20 @@
+# Web Framework & Real-time
+Flask==3.0.3
+flask-cors==4.0.1
+flask-socketio==5.4.1
+python-socketio==5.11.2
+# NOTE: We use async_mode='threading' — do NOT install eventlet/gevent
+# as they conflict with Scapy's packet capture threads.
+
+# Database & Connection
+pymongo==4.7.0
+dnspython==2.6.1   # Required for MongoDB Atlas SRV records
+certifi==2024.2.2
+
+# Security & Auth
+bcrypt==4.1.3
+PyJWT==2.8.0
+python-dotenv==1.0.1
+
+# Networking (The Engine)
+scapy==2.5.0
